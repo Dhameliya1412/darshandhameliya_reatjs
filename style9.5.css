@@ -1,0 +1,44 @@
+
+    .box-1{
+    animation-name: animation;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    position: absolute;
+    left: 100px; 
+    right: 0; 
+    margin-left: 100px;
+    margin-right: auto; 
+  }
+  
+ 
+  /* ****************************************** */
+      
+      .box-2{
+        animation-name: animation;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        position: absolute;
+        left: 200px; 
+        right: 0px; 
+        margin-left: 200px;
+        margin-right: auto; 
+      }
+      
+      @keyframes animation {
+        from {
+          background-color: #ff7a59;
+          width: 300px;
+        }
+        to {
+          background-color: #33475b;
+          width: 80px;
+        }
+      }

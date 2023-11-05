@@ -1,0 +1,236 @@
+.mainbox {
+   
+    height: 700px;
+    max-width: 1700px;
+    margin: 0px;
+    background-color: black;
+}
+.box-1 {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    left: -300px;
+    right: 0px;
+    background-color: red;
+    position: relative;
+    animation-name: box;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px ;
+  }
+  
+  @keyframes box {
+    0%   {background-color:red; left:0px; top:0px; }
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  .box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: box2;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    margin: auto;
+    left: -300px;
+    right: 0px;
+  }
+  
+  @keyframes box2 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:-200px; top:0px;}
+    50%  {background-color:blue; left:-200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  .box-3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: box3;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    margin: auto;
+    left: -300px;
+    right: 0px;
+  }
+  
+  @keyframes box3 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  .box-4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: box4;
+    animation-duration: 9s;
+    animation-delay: 0;
+    margin: auto;
+    left: -300px;
+    right: 0px;
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+  }
+  
+  @keyframes box4 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:-200px; top:0px;}
+    50%  {background-color:blue; left:-200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+
+
+  /* --------------------------------------- */
+
+ 
+
+.box-5 {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    bottom:  400px;
+    background-color: red;
+    position: relative;
+    animation-name: box5;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    border-top-right-radius: 20px ;
+    border-top-left-radius: 20px ;
+    
+  }
+  
+  @keyframes box5 {
+    0%   {background-color:red; left:0px; top:0px; }
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  .box-6 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: box6;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    margin: auto;
+    bottom:  400px;
+    left: 0px;
+    right: 0px;
+  }
+  
+  @keyframes box6 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:-200px; top:0px;}
+    50%  {background-color:blue; left:-200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  .box-7 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: box7;
+    animation-duration: 8s;
+    animation-delay: 0s;
+    margin: auto;
+    bottom:  400px;
+    left: 0px;
+    right: 0px;
+  }
+  
+  @keyframes box7 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+
+   .box-8 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: box8;
+    animation-duration: 9s;
+    animation-delay: 0;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    bottom:  400px;
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+  }
+  
+  @keyframes box8 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:-200px; top:0px;}
+    50%  {background-color:blue; left:-200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  
+  /* ******************************************* */
+
+  .box-9 {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    left: -200px;
+    right: 0px;
+    top: -650px;
+    background-color: red;
+    position: relative;
+    animation-name: box9;
+    animation-duration: 4s;
+    animation-delay: 0s;
+    
+  }
+  
+  @keyframes box9 {
+    0%   {background-color:red; left:0px; top:0px; }
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  .box-10 {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    left: -100px;
+    right: 0px;
+    top: -750px;
+    background-color: red;
+    position: relative;
+    animation-name: box10;
+    animation-duration: 6s;
+    animation-delay: 0s;
+    
+  }
+  
+  @keyframes box10 {
+    0%   {background-color:red; left:0px; top:0px; }
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }

@@ -1,0 +1,1631 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&family=Montserrat:ital,wght@0,100;1,100;1,300;1,700&family=Public+Sans:ital,wght@0,100;0,600;0,700;0,900;1,700&family=Roboto:ital,wght@0,100;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.con-1:hover{
+    overflow:scroll;
+}
+body {
+    display: flex;
+    font-family: 'Martian Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #5d596c;
+    background-color: rgb(198, 198, 198);
+}
+
+.slidebar h1 {
+    margin-left: 0.654rem;
+    display: inline;
+    font-size: 25px;
+
+}
+
+.venxy-main-page {
+    position: relative;
+}
+
+aside {
+    top: 0;
+    left: 0;
+    padding: 5px;
+    height: 1000px;
+    width: 300px;
+    overflow: scroll;
+    position: fixed;
+    background-color: white;
+}
+
+section {
+    display: flex;
+    margin: 20px;
+    height: 500px;
+    width: 1200px;
+    margin-right: 20px;
+    margin-left: 320px;
+    position: absolute;
+    flex-wrap: wrap;
+}
+
+/* border part */
+aside::-webkit-scrollbar-track {
+    background-color: white;
+}
+
+aside::-webkit-scrollbar-thumb {
+    width: 0.3em;
+    background-color: white;
+    height: 300px;
+    border-radius: 20px;
+    border: 0.1em solid white;
+}
+
+
+aside:hover:-webkit-scrollbar-track {
+    background-color: white;
+} 
+
+aside:hover::-webkit-scrollbar-thumb {
+    width: 0.3em;
+    height: 300px;
+    border-radius: 20px;
+    background-color: rgb(199, 199, 199);
+}
+
+.slidebar {
+    margin: 10px 0px 10px 5px;
+}
+
+.slidebar i {
+    margin-left: 127px;
+}
+
+
+
+.slidebar button {
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 45px;
+    width: 260px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    border: 0px;
+    background-color: #bebebe;
+}
+
+.content {
+    display: flex;
+}
+
+.content span {
+    margin: 10px;
+}
+
+.content img {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.slidebar button span {
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.content input[type="button"] {
+    height: 25px;
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 7px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #7367f0;
+    color: white;
+}
+
+.slidebar .right img {
+    margin-left: 25px;
+}
+
+/* content-1 */
+.button-first button {
+    margin-left: 10px;
+    border: 0px;
+}
+
+.content-1 {
+    display: flex;
+    background-color: white;
+}
+
+.content-1 span {
+    margin: 10px;
+    font-size: 16px;
+}
+
+.content-1 img {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.content-1 .right-1 img {
+    margin-left: 110px;
+}
+
+/* content-2 */
+.button-second button {
+    margin-top: 7px;
+    margin-left: 10px;
+    border: 0px;
+}
+
+.content-2 {
+    display: flex;
+    background-color: white;
+}
+
+.content-2 span {
+    margin: 10px;
+    font-size: 16px;
+
+}
+
+.content-2 img {
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.content-2 .right-2 img {
+    margin-left: 80px;
+}
+
+/* middle-line */
+.middle-line {
+    font-size: 13px;
+    margin: 20px 0px 10px 20px;
+}
+
+/* <!-- Buttons-start --> */
+.first {
+    margin: 15px 0px 10px 20px;
+}
+
+.content-3 {
+    background-color: white;
+    display: flex;
+}
+
+.first button {
+    border: 0px;
+}
+
+.first span {
+    font-size: 16px;
+}
+
+/* -------------------------- */
+.second {
+    margin: 15px 0px 0px 20px;
+}
+
+.second button {
+    border: 0px;
+}
+
+.content-4 {
+    background-color: white;
+    display: flex;
+}
+
+.second span {
+    font-size: 16px;
+}
+
+/* ---------------------- */
+.third {
+    margin: 15px 0px 0px 20px;
+}
+
+.third button {
+    border: 0px;
+}
+
+.content-5 {
+    background-color: white;
+    display: flex;
+}
+.content-5 span {
+    margin-top: 3px;
+    font-size: 16px;
+}
+/* ------------------------------------------ */
+.fourth {
+    margin: 15px 0px 0px 20px;
+}
+
+.fourth button {
+    border: 0px;
+}
+
+.content-6 {
+    background-color: white;
+    display: flex;
+}
+/* ------------- Middle line -------------- */
+
+.section{
+    margin: 15px 0px 0px 15px;
+}
+.section button{
+    border: 0px;
+    background-color: white;
+}
+
+.section-2{
+    margin: 0px 0px 0px 15px;
+
+}
+.section-2 button{
+
+    border: 0px;
+    background-color: white;   
+}
+.section-3{
+ margin: 0px 0px 0px 15px;
+}
+.section-3 button{
+    border: 0px;
+    background-color: white;
+}
+.section-4{
+    margin: 0px 0px 0px 15px;
+   }
+.section-4 button{
+   border: 0px;
+   background-color: white;
+}
+
+   .sec-1{
+    margin: 15px 0px 0px 15px;
+}
+.sec-1 button{
+    border: 0px;
+    background-color: white;
+}
+
+.sec-2{
+    margin: 0px 0px 0px 15px;
+
+}   
+.sec-2 button{
+
+    border: 0px;
+    background-color: white;   
+}
+.sec-3{
+ margin: 0px 0px 0px 15px;
+}
+.sec-3 button{
+    border: 0px;
+    background-color: white;
+}
+.sec-4{
+    margin: 0px 0px 0px 15px;
+   }
+   .sec-4 button{
+       border: 0px;
+       background-color: white;
+   }
+
+/* ----------------- search bar -------------------- */
+.box-1{
+    top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.box-1 input{
+    position: absolute;
+    height: 50px;
+    width: 940px;
+    top: 10px;
+    left: 320px;
+    border: 0px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-small;
+}
+
+.box-2{
+    position: relative;
+height: 210px;
+width: 460px;
+background-color: #7367f0;
+display: flex;
+justify-content:;
+top: 80px;
+left: 320px;
+border-radius: 6px;
+}
+.text-1{
+    position: absolute;
+    color: white;
+    margin: 30px;
+    margin-left: 20px;
+}
+.text-2{
+    position: absolute;
+    color: white;
+    margin: 60px;
+    margin-left: 20px;
+}.text-3{
+    position: absolute;
+    color: white;
+    margin: 90px;
+    margin-left: 20px;
+
+}
+.box-3{
+  
+}
+.text-4 label{
+    position: absolute;
+    top: 200px;
+    left: 330px;
+    height: 25px;
+    width: 35px;
+    text-align: center;
+    background-color: rgba(53, 0, 103, 0.317); 
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.text-5 label{
+    position: absolute;
+    top: 200px;
+    left: 490px;
+    height: 25px;
+    width: 35px;
+    text-align: center;
+    background-color: rgba(53, 0, 103, 0.317); 
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}.text-6 label{
+    position: absolute;
+    top: 250px;
+    left: 330px;
+    height: 25px;
+    width: 35px;
+    text-align: center;
+    background-color: rgba(53, 0, 103, 0.317); 
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}.text-7 label{
+    position: absolute;
+    top: 250px;
+    left: 490px;
+    height: 25px;
+    width: 35px;
+    text-align: center;
+    background-color: rgba(53, 0, 103, 0.317); 
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.text-8{
+    position: absolute;
+    top: 210px;
+    left: 380px;
+    color: white;
+}
+.text-9{
+    position: absolute;
+    top: 210px;
+    left: 540px;
+    color: white;
+}
+.text-10{
+    position: absolute;
+    top: 260px;
+    left: 380px;
+    color: white;
+}
+.text-11{
+    position: absolute;
+    top: 270px;
+    left: 540px;
+    color: white;
+}
+.image-1 img {
+position: absolute;
+top: 130px;
+left: 600px;
+}
+
+.box-4{
+    top: 100px;
+    left: 800px;
+    height: 210px;
+    width: 220px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 5px;
+    text-decoration: double;
+}
+.text-12{
+position: absolute;
+top: 20px;
+left: 15px;
+color: #000000;
+}
+.text-13{
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    color: #000000;
+}
+.text-14{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    color: #000000;
+}
+.text-15{
+    position: absolute;
+    top: 110px;
+    left: 30px;
+    color: #000000;
+}
+.text-16{
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    color: #000000;
+}
+.text-17{
+    position: absolute;
+    top: 110px;
+    left: 140px;
+    color: #000000;
+}
+.bar-1 {
+    position: absolute;
+    top: 170px;
+    left: 30px;
+
+}
+.text-18{
+position: relative;
+text-align: center;
+top: -30px;
+left: -8px;
+}
+.text-19{
+    position: absolute;
+     top: 80px;
+     left: 20px;
+}
+.text-20{
+    position: absolute;
+    top: 80px;
+    left: 120px;
+}
+
+
+
+
+.box-5{
+    top: 100px;
+    left: 1040px;
+    height: 210px;
+    width: 220px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+}
+.text-21{
+    position: absolute;
+    top: 15px;
+    left: 13px;
+}
+.text-22{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+.text-23{
+    position: absolute;
+    top: 90px;
+    left: 20px;
+}
+.text-24{
+    position: absolute;
+    top: 90px;
+    left: 0px;
+}
+.box-6{
+    top: 330px;
+    left: 320px;
+    height: 360px;
+    width: 460px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+}
+.text-25{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.text-26{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+.text-27{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.text-28{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+.text-29{
+    position: absolute;
+    top: 210px;
+    left: 10px;
+}
+.text-30{
+    position: absolute;
+    top: 210px;
+    left: 150px;
+}.text-31{
+    position: absolute;
+    top: 210px;
+    left: 310px;
+}
+.text-32{
+    position: absolute;
+    top: 230px;
+    left: 60px;
+}
+.text-33{
+    position: absolute;
+    top: 230px;
+    left: 200px;
+}.text-34{
+    position: absolute;
+    top: 230px;
+    left: 360px;
+}
+.text-35{
+    position: absolute;
+    top: 270px;
+    left: 20px;
+}
+.text-36{
+    position: absolute;
+    top: 270px;
+    left: 160px;
+}.text-37{
+    position: absolute;
+    top: 270px;
+    left: 320px;
+}
+.bar-2 progress{
+    position: absolute;
+    top: 310px;
+    left: 20px;
+    height: 15px;
+    width: 100px;
+    
+}.bar-3 progress{
+    position: absolute;
+    top: 310px;
+    left: 160px;
+    height: 15px;
+    width: 100px;
+}.bar-4 progress{
+    position: absolute;
+    top: 310px;
+    left: 320px;
+    height: 15px;
+    width: 100px;
+}
+
+
+
+.text-38{
+position: absolute;
+top: 60px;
+left: 150px;
+}
+
+
+/* ------------------------ box-7 ------------------ */
+ .box-7{
+    top: 330px;
+    left: 800px;
+    height: 360px;
+    width: 460px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+}
+.text-39{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.text-40{
+    position: absolute;
+    top: 35px;
+    left: 10px;
+}
+.text-41{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+.text-42{
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+.text-43{
+    position: absolute;
+    top: 170px;
+    left: 10px;
+}
+.text-44{
+    position: absolute;
+    top: 230px;
+    left: 10px;
+}.text-45{
+    position: absolute;
+    top: 290px;
+    left: 10px;
+}
+.text-46{
+    position: absolute;
+    top: 180px;
+    left: 60px;
+}
+.text-47{
+    position: absolute;
+    top: 240px;
+    left: 60px;
+}.text-48{
+    position: absolute;
+    top: 300px;
+    left: 60px;
+}
+.text-49{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+}
+.text-50{
+    position: absolute;
+    top: 260px;
+    left: 60px;
+}.text-51{
+    position: absolute;
+    top: 320px;
+    left: 60px;
+}
+.text-52{
+position: absolute;
+top: 40px;
+left: 120px;
+}
+
+/* ----------------- box-8 ---------------------------  */
+.box-8{
+    top: 710px;
+    left: 320px;
+    height: 440px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+}
+.text-53{
+position: absolute;
+top: 10px;
+left: 10px;
+}
+.text-54{
+position: absolute;
+top: 40px;
+left: 10px;
+}
+
+.text-55{
+ position: absolute;
+ top: 80px;
+ left: 10px;
+}
+.text-56{
+    position: absolute;
+    top: 140px;
+    left: 10px;
+   }
+   .text-57{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+   } 
+   .text-58{
+    position: absolute;
+    top: 260px;
+    left: 10px;
+   }
+   .text-59{
+    position: absolute;
+    top: 320px;
+    left: 10px;
+   }
+   .text-60{
+    position: absolute;
+    top: 380px;
+    left: 10px;
+   }
+
+   .text-61{
+    position: absolute;
+    top: 90px;
+    left: 60px;
+   }
+   .text-62{
+       position: absolute;
+       top: 150px;
+       left: 60px;
+      }
+      .text-63{
+       position: absolute;
+       top: 210px;
+       left: 60px;
+      } 
+      .text-64{
+       position: absolute;
+       top: 270px;
+       left: 60px;
+      }
+      .text-65{
+       position: absolute;
+       top: 330px;
+       left: 60px;
+      }
+      .text-66{
+       position: absolute;
+       top: 390px;
+       left: 60px;
+      }
+
+      .text-67{
+        position: absolute;
+        top: 110px;
+        left: 60px;
+       }
+
+       .text-68{
+           position: absolute;
+           top: 170px;
+           left: 60px;
+          }
+          .text-69{
+           position: absolute;
+           top: 230px;
+           left: 60px;
+          } 
+          .text-70{
+           position: absolute;
+           top: 290px;
+           left: 60px;
+          }
+          .text-71{
+           position: absolute;
+           top: 350px;
+           left: 60px;
+          }
+          .text-72{
+           position: absolute;
+           top: 410px;
+           left: 60px;
+          }
+
+.text-73{
+position: absolute;
+top: 100px;
+left: 240px;
+color: green;
+}
+.text-74{
+    position: absolute;
+    top: 160px;
+    left: 240px;
+    color: red;
+
+}
+.text-75{
+    position: absolute;
+    top: 220px;
+    left: 240px;
+    color: green;
+    }
+    .text-76{
+        position: absolute;
+        top: 280px;
+        left: 240px;
+        color: red;
+
+    }.text-77{
+        position: absolute;
+        top: 340px;
+        left: 240px;
+        color: green;
+
+        }
+        .text-78{
+            position: absolute;
+            top: 400px;
+            left: 240px;
+            color: green;
+
+        }
+
+
+
+
+/* ----------------- box-9 ---------------------------  */
+.box-9{
+    top: 710px;
+    left: 640px;
+    height: 440px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+}
+.text-79{
+position: absolute;
+top: 20px;
+left: 20px;
+}
+.text-80{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+}
+.text-81 {
+    position: absolute;
+    top: 100px;
+}
+
+.text-82{
+    position: absolute;
+    top: 390px;
+    left: 60px;
+   }
+.text-83{
+   position: absolute;
+   top: 330px;
+   left: 60px;
+  }
+.text-84{
+  position: absolute;
+  top: 350px;
+  left: 60px;
+ }
+
+.text-85{
+  position: absolute;
+  top: 410px;
+  left: 60px;
+ }
+ .text-86{
+    position: absolute;
+    top: 330px;
+    left: 240px;
+    color: green;
+    }
+    .text-87{
+        position: absolute;
+        top: 390px;
+        left: 240px;
+        color: green;
+    
+    }
+    .text-88{
+        position: absolute;
+        top: 320px;
+        left: 10px;
+       }
+       .text-89{
+        position: absolute;
+        top: 380px;
+        left: 10px;
+       }
+
+
+
+
+/* ----------------- box-10 ---------------------------  */
+.box-10{
+    top: 710px;
+    left: 960px;
+    height: 440px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+}
+       
+.text-90{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    }
+    .text-91{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    }
+    
+    .text-92{
+     position: absolute;
+     top: 80px;
+     left: 10px;
+    }
+    .text-93{
+        position: absolute;
+        top: 140px;
+        left: 10px;
+       }
+       .text-94{
+        position: absolute;
+        top: 200px;
+        left: 10px;
+       } 
+       .text-95{
+        position: absolute;
+        top: 260px;
+        left: 10px;
+       }
+       .text-96{
+        position: absolute;
+        top: 320px;
+        left: 10px;
+       }
+       .text-97{
+        position: absolute;
+        top: 380px;
+        left: 10px;
+       }
+    
+       .text-98{
+        position: absolute;
+        top: 90px;
+        left: 60px;
+       }
+       .text-99{
+           position: absolute;
+           top: 150px;
+           left: 60px;
+          }
+          .text-100{
+           position: absolute;
+           top: 210px;
+           left: 60px;
+          } 
+          .text-101{
+           position: absolute;
+           top: 270px;
+           left: 60px;
+          }
+          .text-102{
+           position: absolute;
+           top: 330px;
+           left: 60px;
+          }
+          .text-103{
+           position: absolute;
+           top: 390px;
+           left: 60px;
+          }
+    
+          .text-104{
+            position: absolute;
+            top: 100px;
+            left: 180px;
+           }
+    
+           .text-105{
+               position: absolute;
+               top: 160px;
+               left: 180px;
+              }
+              .text-106{
+               position: absolute;
+               top: 220px;
+               left: 180px;
+              } 
+              .text-107{
+               position: absolute;
+               top: 280px;
+               left: 180px;
+              }
+              .text-108{
+               position: absolute;
+               top: 340px;
+               left: 180px;
+              }
+              .text-109{
+               position: absolute;
+               top: 400px;
+               left: 180px;
+              }
+    
+    .text-110{
+    position: absolute;
+    top: 100px;
+    left: 240px;
+    color: green;
+    }
+    .text-111{
+        position: absolute;
+        top: 160px;
+        left: 240px;
+        color: red;
+    
+    }
+    .text-112{
+        position: absolute;
+        top: 220px;
+        left: 240px;
+        color: green;
+        }
+        .text-113{
+            position: absolute;
+            top: 280px;
+            left: 240px;
+            color: red;
+    
+        }.text-114{
+            position: absolute;
+            top: 340px;
+            left: 240px;
+            color: green;
+    
+            }
+            .text-115{
+                position: absolute;
+                top: 400px;
+                left: 240px;
+                color: green;
+    
+            }
+/* _________________________ box 11 _________________________ */
+
+.box-11{
+    top: 1170px;
+    left: 320px;
+    height: 440px;
+    width: 300px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+}
+       
+.text-116{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    }
+    .text-117{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    }
+    
+    .text-118{
+     position: absolute;
+     top: 80px;
+     left: 10px;
+    }
+    .text-119{
+        position: absolute;
+        top: 140px;
+        left: 10px;
+       }
+       .text-120{
+        position: absolute;
+        top: 200px;
+        left: 10px;
+       } 
+       .text-121{
+        position: absolute;
+        top: 260px;
+        left: 10px;
+       }
+       .text-122{
+        position: absolute;
+        top: 320px;
+        left: 10px;
+       }
+       .text-123{
+        position: absolute;
+        top: 380px;
+        left: 10px;
+       }
+    
+       .text-124{
+        position: absolute;
+        top: 90px;
+        left: 60px;
+       }
+       .text-125{
+           position: absolute;
+           top: 150px;
+           left: 60px;
+          }
+          .text-126{
+           position: absolute;
+           top: 210px;
+           left: 60px;
+          } 
+          .text-127{
+           position: absolute;
+           top: 270px;
+           left: 60px;
+          }
+          .text-128{
+           position: absolute;
+           top: 330px;
+           left: 60px;
+          }
+          .text-129{
+           position: absolute;
+           top: 390px;
+           left: 60px;
+          }
+    
+          .text-130{
+            position: absolute;
+            top: 100px;
+            left: 200px;
+           }
+    
+           .text-131{
+               position: absolute;
+               top: 160px;
+               left: 200px;
+              }
+              .text-132{
+               position: absolute;
+               top: 220px;
+               left: 200px;
+              } 
+              .text-133{
+               position: absolute;
+               top: 280px;
+               left: 200px;
+              }
+              .text-134{
+               position: absolute;
+               top: 340px;
+               left: 200px;
+              }
+              .text-135{
+               position: absolute;
+               top: 400px;
+               left: 200px;
+              }
+    
+    .text-136{
+    position: absolute;
+    top: 100px;
+    left: 240px;
+    color: green;
+    background-color: rgba(0, 128, 0, 0.24);
+    border-radius: 5px;
+    }
+    .text-137{
+        position: absolute;
+        top: 160px;
+        left: 240px;
+        color: red;
+        background-color:rgba(255, 0, 0, 0.199);
+        border-radius: 5px;
+    
+    }
+    .text-138{
+        position: absolute;
+        top: 220px;
+        left: 240px;
+        color: green;
+        background-color: rgba(0, 128, 0, 0.24);
+        border-radius: 5px;
+        }
+        .text-139{
+            position: absolute;
+            top: 280px;
+            left: 240px;
+            color: red;
+            background-color: rgba(255, 0, 0, 0.215);
+            border-radius: 5px;
+    
+        }.text-140{
+            position: absolute;
+            top: 340px;
+            left: 240px;
+            color: green;
+            background-color: rgba(0, 128, 0, 0.24);
+            border-radius: 5px;
+    
+            }
+            .text-141{
+                position: absolute;
+                top: 400px;
+                left: 240px;
+                color: green;
+                background-color: rgba(0, 128, 0, 0.24);
+                border-radius: 5px;
+            }
+            
+
+/* ---------------------- box 11 ---------------------------------             */
+.box-12{
+    top: 1170px;
+    left: 640px;
+    height: 440px;
+    width: 620px;
+    background-color: white;
+    position: absolute;
+    border-radius: 5px;
+}
+.darsh-1{
+position: absolute;
+top: 10px;
+left: 10px;
+}
+.darsh-2{
+position: absolute;
+top: 10px;
+left: 380px;
+}
+.darsh-3 input{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    height: 15px;
+    width: 15px;
+}
+.darsh-4{
+    position: absolute;
+    top: 60px;
+    left: 70px; 
+}
+.darsh-5{
+    position: absolute;
+    top: 60px;
+    left: 200px; 
+}
+.darsh-6{
+    position: absolute;
+    top: 60px;
+    left: 300px; 
+}
+.darsh-7{
+    position: absolute;
+    top: 60px;
+    left: 400px; 
+}
+.darsh-8{
+    position: absolute;
+    top: 60px;
+    left: 530px; 
+}
+
+.darsh-9 input{
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    height: 15px;
+    width: 15px;
+}
+.darsh-10{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+   
+}
+.darsh-11{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+.darsh-12{
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+.darsh-13{
+    position: absolute;
+    top: 130px;
+    left: 220px;
+}
+.darsh-14 img{
+    position: absolute;
+    top: 120px;
+    left: 280px;
+    border-radius: 200px;
+}
+.darsh-15 img{
+    position: absolute;
+    top: 120px;
+    left: 300px;
+    border-radius: 200px;
+}.darsh-16 img{
+    position: absolute;
+    top: 120px;
+    left: 320px;
+    border-radius: 200px;
+}.darsh-17 img{
+    position: absolute;
+    top: 120px;
+    left: 340px;
+    border-radius: 200px;
+}
+.darsh-18 progress{
+    position: absolute;
+    top: 130px;
+    left: 400px;
+    height: 10px;
+    width: 70px;
+}
+
+.darsh-19 input{
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    height: 15px;
+    width: 15px;
+}
+.darsh-20{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+   
+}
+.darsh-21{
+    position: absolute;
+    top: 190px;
+    left: 100px;
+}
+.darsh-22{
+    position: absolute;
+    top: 210px;
+    left: 100px;
+}
+.darsh-23{
+    position: absolute;
+    top: 200px;
+    left: 220px;
+}
+.darsh-24 img{
+    position: absolute;
+    top: 190px;
+    left: 280px;
+    border-radius: 200px;
+}
+.darsh-25 img{
+    position: absolute;
+    top: 190px;
+    left: 300px;
+    border-radius: 200px;
+}
+.darsh-28 progress{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    height: 10px;
+    width: 70px;
+}
+
+
+.darsh-29 input{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    height: 15px;
+    width: 15px;
+}
+.darsh-30{
+    position: absolute;
+    top: 240px;
+    left: 50px;
+   
+}
+.darsh-31{
+    position: absolute;
+    top: 240px;
+    left: 100px;
+}
+.darsh-32{
+    position: absolute;
+    top: 260px;
+    left: 100px;
+}
+.darsh-33{
+    position: absolute;
+    top: 260px;
+    left: 220px;
+}
+.darsh-34 img{
+    position: absolute;
+    top: 250px;
+    left: 280px;
+    border-radius: 200px;
+}
+.darsh-35 img{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    border-radius: 200px;
+}.darsh-36 img{
+    position: absolute;
+    top: 250px;
+    left: 320px;
+    border-radius: 200px;
+}.darsh-37 img{
+    position: absolute;
+    top: 250px;
+    left: 340px;
+    border-radius: 200px;
+}
+.darsh-38 progress{
+    position: absolute;
+    top: 260px;
+    left: 400px;
+    height: 10px;
+    width: 70px;
+}
+
+
+.darsh-39 input{
+    position: absolute;
+    top: 310px;
+    left: 20px;
+    height: 15px;
+    width: 15px;
+}
+.darsh-40{
+    position: absolute;
+    top: 300px;
+    left: 50px;
+   
+}
+.darsh-41{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+}
+.darsh-42{
+    position: absolute;
+    top: 320px;
+    left: 100px;
+}
+.darsh-43{
+    position: absolute;
+    top: 320px;
+    left: 220px;
+}
+.darsh-44 img{
+    position: absolute;
+    top: 310px;
+    left: 280px;
+    border-radius: 200px;
+}
+.darsh-45 img{
+    position: absolute;
+    top: 310px;
+    left: 300px;
+    border-radius: 200px;
+}.darsh-46 img{
+    position: absolute;
+    top: 310px;
+    left: 320px;
+    border-radius: 200px;
+}.darsh-47 img{
+    position: absolute;
+    top: 310px;
+    left: 340px;
+    border-radius: 200px;
+}
+.darsh-48 progress{
+    position: absolute;
+    top: 320px;
+    left: 400px;
+    height: 10px;
+    width: 70px;
+}
+
+
+.darsh-49 input{
+    position: absolute;
+    top: 370px;
+    left: 20px;
+    height: 15px;
+    width: 15px;
+}
+.darsh-50{
+    position: absolute;
+    top: 360px;
+    left: 50px;
+   
+}
+.darsh-51{
+    position: absolute;
+    top: 360px;
+    left: 100px;
+}
+.darsh-52{
+    position: absolute;
+    top: 380px;
+    left: 100px;
+}
+.darsh-53{
+    position: absolute;
+    top: 380px;
+    left: 220px;
+}
+.darsh-54 img{
+    position: absolute;
+    top: 370px;
+    left: 280px;
+    border-radius: 200px;
+}
+.darsh-55 img{
+    position: absolute;
+    top: 370px;
+    left: 300px;
+    border-radius: 200px;
+}.darsh-56 img{
+    position: absolute;
+    top: 370px;
+    left: 320px;
+    border-radius: 200px;
+}
+.darsh-58 progress{
+    position: absolute;
+    top: 380px;
+    left: 400px;
+    height: 10px;
+    width: 70px;
+}
+
+.darsh-59 button{
+ position: absolute;
+height: 35px;
+width: 100px;
+top: 1620px;
+left: 1150px;
+background-color: red;
+color: rgb(255, 255, 255);
+border: 0ch;
+border-radius: 10px;
+}
+

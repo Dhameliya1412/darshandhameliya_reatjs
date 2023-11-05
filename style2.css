@@ -1,0 +1,160 @@
+.colur{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(200, 147, 45);
+}
+.colur-1{
+    height:50px;
+    width:50px;
+    background-color: rgba(48,189,57,0.8);
+}
+.colur-2{
+    height: 50px;
+    width: 50px;
+    background-color:;
+}
+.colur-3{
+    height: 50px;
+    width: 50px;
+    background-color: hsl(0,100%,50%);
+}
+.background{
+    height: 50px;
+    width: 50px;
+    /*background-color: rgba(48,189,57,0.8);*/
+    background-image: url(/pizza.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.linear{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(red,yellowgreen);
+}
+.diagonal{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to left,red,yellowgreen);
+}
+.linary-rainbow{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to top,red,orange,yellow,green,aqua,blue,indigo,violet);
+}
+.radial-simple{
+    height: 200px;
+    width: 200px;
+    background: radial-gradient(red,darkred,black);
+}
+.radial-gradient{
+    height: 200px;
+    width: 300px;
+    background: radial-gradient(circle farthest-corner at right,aqua,blue);
+}
+.bullseys{
+    height: 200px;
+    width: 200px;
+    background:repeating-radial-gradient(yellow,yellow 5%,black 5%,gray 16%);
+}
+.warning{
+    height: 200px;
+    width: 200px;
+    background: repeating-linear-gradient(0deg, blue,black);
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px solid darkred;
+}
+.box-1{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 10px dotted yellowgreen;
+}
+.box-2{
+    height: 200px;
+    width: 200px;
+    background-color: darkred;
+    border: 10px dashed red;
+}
+.box-3{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 10px double yellowgreen;
+}
+.box-4{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 10px hidden yellowgreen;
+}
+.box-5{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px none darkred;
+}
+.box-6{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 10px ridge yellowgreen;
+}
+.box-7{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+    border: 10px inset yellowgreen;
+}
+.box-8{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px outset yellowgreen;
+}
+.box-9{
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    border: 10px groove darkred;
+}
+.radius{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    border: 10px solid darkblue;
+    border-radius: 100%;
+    border-radius: 10px 50px;
+    border-radius: 10px 50px 100px;
+    border-radius: 10px 50px 70px 100px;
+}
+.outline{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border: 10px solid brown;
+    outline:10px solid darkred;
+    outline-offset: 10px;
+    margin:200px;
+}
+.opacity{
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+    opacity:0.8;
+    color: blue;
+}
+button{
+    background-color: gray;
+    border: dotted;
+    color: black;
+    border-radius: 5px;
+    font-weight: lighter    ;
+}
+
+ 
