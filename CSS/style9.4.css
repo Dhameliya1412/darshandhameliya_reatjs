@@ -1,0 +1,15 @@
+.box-1 {
+    
+    position: absolute;
+    margin: 160px;
+    left: 1000px;
+    animation-duration: 8s;
+    animation-name: box1;
+   
+    
+  }
+  
+  @keyframes box1 {
+    0%   {left: 00px; top:0px; }
+    50%  {left: -150px; top:0px;}
+  }

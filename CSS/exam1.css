@@ -1,0 +1,125 @@
+
+.mainbox{
+    background-color: gainsboro;
+    
+}
+.heading-1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 60px;
+}
+.perabox-1{
+    display: flex;
+    margin: ;
+    margin-left: 25px;
+    justify-content: space-around;
+}
+.box-1{
+    background-color:rgb(203, 203, 203);
+    right: 100px;
+    height: 260px;
+    width: 22%;
+    border-radius: 20px;
+
+}
+.pic-1 img{
+height: 150px;
+width: 100%;
+border-start-start-radius: 20px;
+border-top-right-radius: 20px;
+top: 20px;
+}
+.pic-2 img{
+    top: 40px;
+    left: 40px;
+    height: 30px;
+    width: 16%;
+    border-radius: 20px;
+    
+}
+
+.text-1 label{
+    top: 100px; 
+}
+
+.box-2{
+    background-color:rgb(203, 203, 203);
+    right: 100px;
+    height: 260px;
+    width: 22%;
+    border-radius: 20px;
+
+}
+.pic-3 img{
+height: 150px;
+width: 100%;
+border-start-start-radius: 20px;
+border-top-right-radius: 20px;
+top: 20px;
+}
+.pic-4 img{
+    top: 40px;
+    left: 40px;
+    height: 30px;
+    width: 16%;
+    border-radius: 20px;
+}
+.text-2 label {
+    top: 50px;
+}
+
+.box-3{
+    background-color:rgb(203, 203, 203);
+    right: 100px;
+    height: 260px;
+    width: 22%;
+    border-radius: 20px;
+
+}
+.pic-5 img{
+height: 150px;
+width: 100%;
+border-start-start-radius: 20px;
+border-top-right-radius: 20px;
+top: 20px;
+}
+.pic-6 img{
+    top: 40px;
+    left: 40px;
+    height: 30px;
+    width: 16%;
+    border-radius: 20px;
+}
+.text-3 label {
+    top: 50px;
+}
+
+.box-4{
+    background-color:rgb(203, 203, 203);
+    right: 100px;
+    height: 260px;
+    width: 22%;
+    border-radius: 20px;
+    
+
+}
+.pic-7 img{
+height: 150px;
+width: 100%;
+border-start-start-radius: 20px;
+border-top-right-radius: 20px;
+top: 20px;
+}
+.pic-8 img{
+    top: 40px;
+    left: 40px;
+    height: 30px;
+    width: 16%;
+    border-radius: 20px;
+}
+.text-4 label {
+    top: 50px;
+}
+
+
+
+

@@ -1,0 +1,14 @@
+
+.box-1:hover{
+     transform: translatex(700px);
+     transition:  rotate3d();
+     transition-duration: 6s;
+    
+    }
+    
+.cover:hover .content{
+        transform: perspective(600px) rotate3d(240 , 240 , 240 , 241deg);
+        transition: 3s;
+    }
+
+      
